@@ -1,11 +1,11 @@
 import random
 
-players = ("Kadda", "Raphi", "Lukas","Adrian", "Felix")
+players = ("Tim", "Lukas","Adrian", "Felix", "David")
 temp = []
-teamsize = 2
+teamsize = 3
 
 
-for i in range(100):
+for i in range(1000):
     tup = tuple(random.sample(players, teamsize))
     temp.append(tup)
 
